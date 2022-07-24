@@ -21,7 +21,7 @@
               <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ">
                   <li class="nav-item">
-                    <a class="nav-link text-dark fw-bold col-4" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-dark fw-bold col-4 " aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-dark fw-bold" href="#">About us</a>
@@ -46,39 +46,30 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./images/banner.png" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h1>The perfect venue for your next event</h1>
-                  <p> dolor sit amet consectetur adipisicing elit. Adipisci dolor facilis, quam beatae nihil quidem, natus perspiciatis tenetur illum eligendi iusto ipsum dolor sit amet consectetur.</p>
+                  <h1 class="mb-4">The perfect venue for your next event</h1>
+                  <p class="text-light fs-6"> dolor sit amet consectetur adipisicing elit. Adipisci dolor facilis, quam beatae nihil quidem, natus perspiciatis tenetur illum eligendi iusto ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, praesentium</p>
                   <button class="bg-light border-light text-info ps-3 pe-3 rounded " type="text">Book Now</button>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+            </div>
+            
+          
      
     </section>
 
@@ -86,15 +77,15 @@
         <div class="col-6">
             <img class="mt-5 ms-5 img-fluid" src="./images/wedding.png" alt="">
         </div>
-        <div>
+        <div class="col-6">
             <h1 class="mt-5">Every moment is precious</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magnam similique, rerum nihil dicta libero quod reiciendis officiis illum accusamus in vel tempore eligendi? Blanditiis.</p>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magnam similique, rerum nihil dicta libero quod reiciendis officiis illum accusamus in vel tempore eligendi? Blanditiis.</p>
          
             <button class="bg-info border-info text-dark ">Explore your album</button>
         </div>
     </section>
     <section>
-        <h1 class="text-center ">Our Package</h1>
+        <h1 class="text-center mb-5 ">Our Package</h1>
         <div class="conteiner d-flex justify-content-center ms-5 mb-5">
             
             <div class="col-3 ms-lg-5">
@@ -126,7 +117,7 @@
                 <button class="bg-dark text-white rounded-4 fw-bold pt=2 pb-1 ps-5 pe-5">Choose Plan</button>
             </div>
 
-            <div class="card rounded-5 bg-primary col-3 me-lg-5" style="width: 15rem; height: 25rem;">
+            <div class="card rounded-5 bg-primary col-3 me-lg-5 " style="width: 15rem; height: 21.5rem;">
               <div class="card-body">
                 <h2 class=" text-light fw-bold">$800</h2>
                 <h4 class=" mb-2 text-white fw-bold">Wedding Plus</h4>
@@ -169,7 +160,7 @@
         <h3 class="text-center mb-5">Happy Clients Says</h3>
       </div>
 
-      <section class="container d-flex gap-4">
+      <section class="container d-flex gap-4 mb-5">
           
       <div class="card shadow border-white" style="width: 22rem; height: 17rem;">
         <!-- <div class="card-body"> -->
@@ -216,9 +207,90 @@
     
     </div>
       </section>
+
       
-      
+     
     </section>
+    
+<!-- Accordian section -->
+
+
+    <section>
+      <div>
+        <h3 class="text-center mb-5">Frequentyl Asked Questions</h3>
+      </div>
+
+      <section class="container d-flex mb-5">
+
+        <div class="accordion accordion-flush col-6 shadow" id="accordionFlushExample" >
+
+          <div class="accordion-item ">
+            <h2 class="accordion-header " id="flush-headingOne">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What's the difference between event design and event planning?
+              </button>
+            </h2>
+
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-secondary">Even design and even planning work, which is intended to demonstrate the accordion-flush class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How early do we need to start planning an event
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the accordion-flush class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree ">
+                What is your refund and cancellation policy?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-secondary">Placeholder content for this accordion, which is intended to demonstrate the accordion-flush class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                How do you keep budgets on track?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the accordion-flush class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-6 ms-5">
+          <img class="img-fluid"  src="./images/people.png" alt="">
+
+        </div>
+        
+      </section>
+    </section>
+
+    
+  <footer class="d-flex bg-dark pt-5 pb-5">
+    <div class="col-10 ">
+     <p class="text-secondary p-5">@2021 bike. All rights reserved</p>
+    </div>
+    <div class="col-2">
+     <h3 class="text-secondary">Get the App</h3>
+     <img class="img-fluid bg-dark w-50 h-54 rounded" src="./images/DNAH-w0UMAA0bdj.jpg" alt="">
+    </div>
+ 
+   </footer>
 
    
     
